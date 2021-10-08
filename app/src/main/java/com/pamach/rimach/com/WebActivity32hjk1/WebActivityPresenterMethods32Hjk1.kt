@@ -123,12 +123,12 @@ class WebActivityPresenterMethods32Hjk1 (private val webActivityMethods32hjk1: W
     override fun setUptWebChromeClient32hjk1() {
         webActivityMethods32hjk1.giveWebView32hjk1().webChromeClient = object : WebChromeClient () {
             override fun onShowFileChooser(
-                webView: WebView?,
-                filePathCallback: ValueCallback<Array<Uri>>?,
-                fileChooserParams: FileChooserParams?
+                webView32hjk1: WebView?,
+                filePathCallback32hjk1: ValueCallback<Array<Uri>>?,
+                fileChooserParams32hjk1: FileChooserParams?
             ): Boolean {
                 webActivityMethods32hjk1.checkForPermissionPresence32hjk1()
-                filePathCallBack32hjk1 = filePathCallback
+                filePathCallBack32hjk1 = filePathCallback32hjk1
                 val captureIntent32hjk1 = Intent(MediaStore.ACTION_IMAGE_CAPTURE)
                 if (captureIntent32hjk1.resolveActivity(webActivityMethods32hjk1.contextGiver32hjk1().packageManager) != null) {
                     val providedFile2wlkzg1e = createTempFile32hjk1()
@@ -154,8 +154,8 @@ class WebActivityPresenterMethods32Hjk1 (private val webActivityMethods32hjk1: W
 
                 }
                 return super.onShowFileChooser(
-                    webView,
-                    filePathCallback, fileChooserParams)
+                    webView32hjk1,
+                    filePathCallback32hjk1, fileChooserParams32hjk1)
 
             }
         }
