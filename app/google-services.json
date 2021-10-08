@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "773961649",
+    "project_id": "compamachrimachcom",
+    "storage_bucket": "compamachrimachcom.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773961649:android:c4f35909b3e7a167a22f90",
+        "android_client_info": {
+          "package_name": "com.pamach.rimach.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "773961649-iu6op62hron2q95sdv3bj4hfd9lp9ngf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCf4uxUrjN-vWDnpgiDMYLrUSCwssD0vR8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "773961649-iu6op62hron2q95sdv3bj4hfd9lp9ngf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
