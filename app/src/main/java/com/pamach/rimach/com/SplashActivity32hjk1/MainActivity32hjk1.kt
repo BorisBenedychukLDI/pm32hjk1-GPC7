@@ -25,7 +25,6 @@ class MainActivity32hjk1 : AppCompatActivity(), SplashActivityContract32hjk1.Spl
         binding32hjk1 = ActivityMain32hjk1Binding.inflate(layoutInflater)
         setContentView(binding32hjk1.root)
         splashActivityPresenterMethods32hjk1 = SplashPresenter32hjk1(this)
-        splashActivityPresenterMethods32hjk1.setupFB32hjk1()
         splashActivityPresenterMethods32hjk1.thisEndsHere32hjk1()
     }
 

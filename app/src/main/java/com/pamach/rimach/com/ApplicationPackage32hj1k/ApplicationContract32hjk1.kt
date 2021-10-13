@@ -8,8 +8,6 @@ interface ApplicationContract32hjk1 {
     }
 
     interface ApplicationSetuperMethods32hjk1 {
-        fun appsFlyerSetup32hjk1 ()
         fun onesignalSetup32hjk1 ()
-        fun mobileAdsSetup34hjk1 ()
     }
 }

@@ -13,7 +13,6 @@ interface SplashActivityContract32hjk1 {
     @SuppressLint("CustomSplashScreen")
     interface SplashActivityPresenterMethods32hjk1 {
         fun thisEndsHere32hjk1 ()
-        fun setupFB32hjk1 ()
     }
 
 
